@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    background-color:whitesmoke;
+}
+    #title{
+        display: flex;
+        justify-content: center;
+        font-family: monospace;
+        font-size: 50px;
+      }
+#parent {
+background-color: rgb(255, 255, 255);
+display: flex;
+justify-content: center;
+}
+
+#container{
+     display: grid;
+     height: 500px;
+     width: 500px;
+     border: rgb(0, 0, 0) 5px solid;
+     margin-top: 50px;
+}
+
+.square{
+    border : black solid 0.5px;
+    
+}
+.color{
+    background-color: red;
+}
+#btn {
+    border: none;
+    color: rgb(0, 0, 0);
+    height: 50px;
+    width: 180px;
+    background-color:lightgray;
+    padding: 5px;
+    margin-top:10px;
+    font-family: monospace;
+    
+}
+#btn:hover{
+    background-color: whitesmoke;
+    scale: 1.1;
+    margin-left: 10px; }
